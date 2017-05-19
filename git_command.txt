@@ -12,4 +12,5 @@ git reset --hard head~34
 git reset --hard 256f34
 git reflog
 git diff head -- readme.txt
-
+git checkout -- readme.txt
+git reset head readme.txt
