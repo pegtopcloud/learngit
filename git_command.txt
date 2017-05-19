@@ -5,12 +5,12 @@ git add
 git commit -m "add new file readme.txt"
 git status
 git log
+git log --pretty=oneline
 git diff
-git diff --pretty=oneline
+git diff head -- readme.txt
 git reset --hard head~
 git reset --hard head~34
 git reset --hard 256f34
 git reflog
-git diff head -- readme.txt
 git checkout -- readme.txt
 git reset head readme.txt
