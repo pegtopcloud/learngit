@@ -1,0 +1,13 @@
+git config --global user.name "Leo"
+git config --global user.email "pegtopcloud@gmail.com"
+git init
+git add
+git commit -m "add new file readme.txt"
+git status
+git log
+git diff
+git diff --pretty=oneline
+git reset --hard head~
+git reset --hard head~34
+git reset --hard 256f34
+git reflog
