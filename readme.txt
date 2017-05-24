@@ -9,4 +9,4 @@ dev3
 Git tracks changes of files. dev2
 Creating a new branch is quick and simple.
 >>>>>>> dev
-hello
+hello!
